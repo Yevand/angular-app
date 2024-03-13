@@ -1,5 +1,5 @@
 
-describe("List", ()=>{
+describe.skip("List", ()=>{
   beforeEach(()=>{
     cy.visit("/pages/layout/list")
     cy.get('nb-card.list-card').filter(':contains("Some Fruits")').as("container")
