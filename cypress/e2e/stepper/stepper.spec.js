@@ -1,6 +1,6 @@
 
 
-describe.skip("Stepper", ()=>{
+describe("Stepper", ()=>{
     it("should work" ,{
       retries: {
         runMode: 2,
