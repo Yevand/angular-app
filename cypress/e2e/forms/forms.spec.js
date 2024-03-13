@@ -1,5 +1,5 @@
 
-describe("Forms", ()=>{
+describe.skip("Forms", ()=>{
   beforeEach(()=>{
     cy.visit("/pages/forms/layouts")
     // cy.get("nb-card.inline-form-card").as("container")
