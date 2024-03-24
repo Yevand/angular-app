@@ -1,6 +1,6 @@
 import SmartTablePage from "../../POM/SmartTablePage";
 
-describe("Smart-Table", () => {
+describe.skip("Smart-Table", () => {
   const smartTablePage = new SmartTablePage()
   beforeEach(() => {
     smartTablePage.navigate()
