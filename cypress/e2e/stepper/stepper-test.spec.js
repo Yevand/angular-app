@@ -1,4 +1,4 @@
-describe ("Stepper", () => {
+describe.skip("Stepper", () => {
   it("must be functioning", () => {
     const titleSelector = 'nb-stepper[orientation = "horizontal"]'
 

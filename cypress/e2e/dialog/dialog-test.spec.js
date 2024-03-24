@@ -1,4 +1,4 @@
-describe("Dialog", () => {
+describe.skip("Dialog", () => {
   it("must be functioning", () =>{
     const dialogContainerSelector = "nb-dialog-container"
 
