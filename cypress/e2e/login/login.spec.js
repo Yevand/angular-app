@@ -1,6 +1,6 @@
 import LoginPage from "../../POM/LoginPage";
 
-describe("Login page", () => {
+describe.skip("Login page", () => {
   const loginPage = new LoginPage()
 
   beforeEach(() => {

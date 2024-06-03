@@ -14,7 +14,12 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import 'cypress-plugin-api';
+
+import './commands';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+// const chai = require('chai');
+chai.use(require('chai-json-schema'));
